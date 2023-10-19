@@ -19,5 +19,5 @@ spec:
         app: {{ .Values.name }}-deploy
     spec:
       containers:
-      - image: frallan97/node-hostname
+      - image: frallan97/node-hostname:{{ .Values.tag }}
         name: node-hostname

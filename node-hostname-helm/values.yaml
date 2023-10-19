@@ -2,3 +2,4 @@ name: node-hostname
 replicaCount: 4
 namespace: node-hostname
 NodePort: 31018
+tag: latest
