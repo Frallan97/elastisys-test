@@ -54,5 +54,8 @@ This setup works on Linux, Mac and Windows
 
 ### Setup
 This will only go through the linux setup (windows and mac are comming soon). This works on windows subsystem for linux(wsl).
-1. Clone git repository `git clone `
-
+1. Clone git repository: `git clone https://github.com/Frallan97/elastisys-test.git`
+2. Start up minikube: `minikube start`
+3. Run helm install: `helm install node-hostname node-hostname-helm`
+4. Get ip to minikube node: `minikube ip`
+5. Go to your browser and typ insert the minikube-ip followed by 31018 like this `https://<MINIKUBE-IP>:31018` 
